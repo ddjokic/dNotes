@@ -1,4 +1,4 @@
-# !usr/bin/env python
+#!/usr/bin/env python
 '''Creates new text note, with predefined filename, insert "# Tags" as first line in the file and open it in default Text Editor. If files exist, script append existing file.
 This scheme is used for my private (not job-related) notes. Path to the notes  is hard-coded on line 12: change it to suit needs and OS. Windows path: C:\\Path\To\\notes
 
