@@ -25,7 +25,7 @@ prefix = ['Citx', 'Prodx', 'Progx', 'Refx', 'Jobx', 'Bashx', 'Travx', 'Docx', 'T
 file_prefix = prefix [int(num)-1]
 
 # hard coded path to notes!:
-filename = file_prefix + ' - ' + ss + ' - ' + description + '.txt'
+filename = file_prefix + '-' + ss + '-' + description + '.txt'
 
 os.chdir (path)
 fn=open(filename, 'a')
